@@ -18,4 +18,5 @@ app.ws.use(route.all('/', function (ctx) {
     })
 }))
 app.listen(3000)
+
 // 会默认打开127.0.0.1:3000这个端口号
