@@ -1,0 +1,15 @@
+<view hover-class="name-hover" class="name" style="background :{{ item.color }}" bindtap="play">
+	{{ item.name }}
+</view>
+<view>
+ {{ res.x }} 
+ </view>
+ <view>
+  {{ res.y }}
+  </view>
+  <view>
+   {{ res.z }}
+</view>
+<view class="reload" bindtap="reload">
+	刷新
+</view>

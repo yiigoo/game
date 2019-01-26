@@ -1,0 +1,31 @@
+/**index.wxss**/
+.name{
+  width : 300rpx;
+  height: 300rpx;
+  color: #fff;
+  border-radius : 50%;
+  line-height : 300rpx;
+  box-shadow : 0 0 40rpx #ccc;
+  text-align : center;
+  position : fixed;
+  top: 40%;
+  left : 50%;
+  margin : -150rpx 0 0 -150rpx;
+  font-size : 60rpx;
+  letter-spacing : 10rpx;
+}
+.name-hover{
+  opacity : .6;
+}
+.reload {
+  position : fixed;
+  bottom : 50rpx;
+  left : 50rpx;
+  width : 120rpx;
+  height : 120rpx;
+  background : #eee;
+  border-radius : 50%;
+  font-size : 30rpx;
+  text-align : center;
+  line-height : 120rpx;
+}
